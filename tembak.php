@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("pink"," ===========================\n");
-echo color("pink","| Auto create Gojek X Redeem voucher |\n");
+echo color("white"," ===========================\n");
+echo color("white","| Auto create Gojek X Redeem voucher |\n");
 echo color("white","| Creator : Calon Sarjana            |\n");
 echo color("red","| Reworked : X X X T E N T A K E L            |\n");
 echo "| Version : Premium X pertalite      |\n";
@@ -52,7 +52,7 @@ echo " ===========================\n";
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("green","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
-        echo color("pink","\n===========(PROSES REDEEM VOUCHER)===========");
+        echo color("white","\n===========(PROSES REDEEM VOUCHER)===========");
         echo "\n".color("yellow","!] Claim GOFOODSANTUY19");
         echo "\n".color("white","!] Please wait");
         for($a=1;$a<=3;$a++){
